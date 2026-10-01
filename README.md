@@ -1,42 +1,48 @@
 # Konstantin Konuhov
 
-Product analytics with a product and project management background.
+### Product Analytics | PostgreSQL · Python · BI
 
-I work with PostgreSQL, Python, Power BI and Yandex DataLens to understand user behaviour, analyse funnels and cohort retention, and translate findings into product decisions.
+I analyse funnels, cohort retention and user behaviour to help teams prioritise product changes. My commercial experience combines hands-on analytics with product and project management in digital products and EdTech.
 
-[LinkedIn](https://www.linkedin.com/in/konstantin-konuhov-4a4a23352/)
+[LinkedIn](https://www.linkedin.com/in/konstantin-konuhov-4a4a23352/) · Moscow, Russia · Open to product and data analytics roles
+
+---
+
+## Analytical Work
+
+| Product question | My work |
+| --- | --- |
+| Where do users leave the purchase journey? | Analysed course discovery and payment funnels; worked with designers and developers on UX improvements. |
+| Which users return after communications? | Built first-visit cohorts, measured D1 / D3 / D7 retention by channel and excluded technical anomalies. |
+| What was a user's first communication touchpoint? | Ranked interactions with `ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY hit_time)`. |
+| Which users need different messages? | Segmented users to support targeted communications and more focused advertising. |
+| What should the product team prioritise? | Combined dashboards, survey analysis, customer interviews and usability findings into product tasks. |
+
+## Toolkit
+
+| Area | Tools and methods |
+| --- | --- |
+| SQL | PostgreSQL, JOIN, GROUP BY, aggregations, CASE WHEN, COUNT(DISTINCT), window functions |
+| Python | pandas, NumPy, Jupyter Notebook |
+| BI & web analytics | Power BI, Yandex DataLens, Google Analytics, Yandex Metrica |
+| Product metrics | Funnels, conversion, cohort analysis, retention, churn, segmentation, LTV, CAC, ROI/ROMI |
 
 ## Experience
 
-**LAUNCH-BOX | Project / Product Manager, with product and business analytics responsibilities**  
-December 2023 - present
+**LAUNCH-BOX** · December 2023 - present  
+Project / Product Manager with product and business analytics responsibilities.
 
-- Analysed course discovery and payment funnels for an EdTech platform, working with design and development teams on improvements.
-- Built first-visit cohorts and measured D1, D3 and D7 retention across communication channels, filtering technical anomalies.
-- Used SQL window functions (`ROW_NUMBER`) to identify each user's first communication touchpoint.
-- Segmented users and supported targeted communications and advertising decisions.
-- Processed survey data with Python and created dashboards for traffic, conversion and purchase funnels.
-- Investigated payment logs with developers and helped turn findings into product and technical tasks.
+Digital products and an EdTech platform: funnel analysis, cohort retention, survey processing, dashboards and collaboration with design / development teams. Investigated payment logs jointly with developers and translated findings into product and technical tasks.
 
-## Tools and methods
-
-- **SQL:** PostgreSQL, JOIN, GROUP BY, aggregations, CASE WHEN, COUNT(DISTINCT), window functions.
-- **Python:** pandas, NumPy, Jupyter Notebook.
-- **BI and web analytics:** Power BI, Yandex DataLens, Google Analytics, Yandex Metrica.
-- **Product analysis:** funnels, conversion, cohort analysis, retention, churn, user segmentation, LTV, CAC and ROI/ROMI.
-- **Research:** customer interviews, surveys and usability testing.
-
-## Education
+## Education & Development
 
 **State University of Management**  
-Economics and Finance / Financial Management, 2025 - 2029 (in progress).
+Economics and Finance / Financial Management · 2025 - 2029, in progress.
 
-## Competitions
+**Courses:** VK Education - Product Management; Netology - Project Management.
 
-- TechnoCup 2025 - finalist.
-- T1.GenAI 2025 - finalist.
-- HSE Case 2024 - finalist.
+**Finalist:** TechnoCup 2025 · T1.GenAI 2025 · HSE Case 2024.
 
-## Career interests
+---
 
-Product Analyst and Data Analyst roles focused on digital products. Based in Moscow, Russia; open to remote or hybrid work and relocation to Europe with visa sponsorship.
+Open to remote or hybrid work and relocation to Europe with visa sponsorship.
