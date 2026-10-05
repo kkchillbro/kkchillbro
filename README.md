@@ -8,6 +8,16 @@ I analyse funnels, cohort retention and user behaviour to help teams prioritise 
 
 ---
 
+## Featured Analytics Projects
+
+| Project | Question and methods | Evidence |
+| --- | --- | --- |
+| [Cohort retention & first-touch attribution](https://github.com/kkchillbro/cohort-retention-sql) | Which users return on D1 / D3 / D7? SQL CTEs, window functions, maturity-aware denominators and weighted aggregation. | Executable DuckDB SQL, chart, audit exports and 5 tests. |
+| [EdTech purchase funnel](https://github.com/kkchillbro/edtech-funnel-analysis) | Where does the ordered purchase journey lose users? Python, mobile / desktop segments, seven-day follow-up and event quality checks. | Reproducible pipeline, chart, user-level audit and 5 tests. |
+| [Marketing unit economics](https://github.com/kkchillbro/marketing-unit-economics) | Which acquisition channels cover their costs? Mature 30-day cohorts, CAC, refund-adjusted revenue and contribution ROMI. | BI-ready exports, chart, metric specification and 9 tests. |
+
+These portfolio demonstrations were created in October 2026 with AI assistance on fully synthetic data. They contain no employer or personal data, do not represent commercial results, and are not A/B experiments. All 19 tests passed locally; each repository includes reproduction steps and explicit metric limitations.
+
 ## Analytical Work
 
 | Product question | My work |
@@ -22,7 +32,7 @@ I analyse funnels, cohort retention and user behaviour to help teams prioritise 
 
 | Area | Tools and methods |
 | --- | --- |
-| SQL | PostgreSQL, JOIN, GROUP BY, aggregations, CASE WHEN, COUNT(DISTINCT), window functions |
+| SQL | PostgreSQL, JOIN, GROUP BY, aggregations, CASE WHEN, COUNT(DISTINCT), window functions; current practice with subqueries and CTEs |
 | Python | pandas, NumPy, Jupyter Notebook |
 | BI & web analytics | Power BI, Yandex DataLens, Google Analytics, Yandex Metrica |
 | Product metrics | Funnels, conversion, cohort analysis, retention, churn, segmentation, LTV, CAC, ROI/ROMI |
