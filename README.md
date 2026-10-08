@@ -9,14 +9,14 @@ I analyse funnels, cohort retention and user behaviour to help teams prioritise 
 
 | Project | Question and methods | Evidence |
 |---|---|---|
+| [**Cookie Cats A/B test** (real data)](https://github.com/kkchillbro/cookie-cats-ab-test) | Should a mobile game move its first paywall gate from level 30 to 40? 90k real players: SRM check, outliers, z-test + bootstrap, power. Moving the gate cut 7-day retention by 0.82 pp (p = 0.0016). | [Kaggle notebook](https://www.kaggle.com/code/kkchillbro/cookie-cats-a-b-test-gate-30-vs-40) with outputs, README with decision and limitations. |
 | [Retention drop root cause](https://github.com/kkchillbro/retention-drop-investigation) | Why did D7 retention fall by 7 pp? Hypothesis tree, segment and funnel drill-down, counterfactual, Kitagawa mix/rate decomposition: release bug 41%, channel mix 55%. | PostgreSQL + pandas pipeline, 4 charts, auto-generated findings, 3 tests. |
 | [A/B testing toolkit](https://github.com/kkchillbro/ab-testing-toolkit) | How much do common experiment mistakes cost? Power analysis, SRM, delta method, CUPED, Holm; simulations show peeking raises false positives from 5% to 25%. | Python package, Monte-Carlo simulations, experiment readout, 9 tests. |
 | [SQL product metrics cookbook](https://github.com/kkchillbro/sql-product-metrics) | How to compute DAU/MAU, funnels, cohorts, churn, LTV, CAC/ROMI/payback, RFM, sessions without the usual pitfalls? | 10 PostgreSQL queries, SQL-only seed, Docker, saved outputs. |
-| [Cohort retention & first-touch attribution](https://github.com/kkchillbro/cohort-retention-sql) | Which users return on D1 / D3 / D7? SQL CTEs, window functions, maturity-aware denominators and weighted aggregation. | Executable DuckDB SQL, chart, audit exports and 5 tests. |
 | [EdTech purchase funnel](https://github.com/kkchillbro/edtech-funnel-analysis) | Where does the ordered purchase journey lose users? Python, mobile / desktop segments, seven-day follow-up and event quality checks. | Reproducible pipeline, chart, user-level audit and 5 tests. |
 | [Marketing unit economics](https://github.com/kkchillbro/marketing-unit-economics) | Which acquisition channels cover their costs? Mature 30-day cohorts, CAC, refund-adjusted revenue and contribution ROMI. | BI-ready exports, chart, metric specification and 9 tests. |
 
-These portfolio demonstrations were created in October 2026 with AI assistance on fully synthetic data. They contain no employer or personal data and do not represent commercial results. Each repository includes reproduction steps, tests and explicit limitations.
+The Cookie Cats project uses a public real-world dataset. The other demonstrations were created in October 2026 with AI assistance on fully synthetic data; they contain no employer or personal data and do not represent commercial results. Each repository includes reproduction steps, tests and explicit limitations.
 
 ### Analytical Work
 
