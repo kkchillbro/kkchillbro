@@ -1,4 +1,4 @@
-## Konstantin Konuhov
+## Konstantin Konyukhov
 **Product Analytics | PostgreSQL · Python · BI · A/B testing**
 
 I analyse funnels, cohort retention and user behaviour to help teams prioritise product changes. My commercial experience combines hands-on analytics with product and project management in digital products and EdTech.
